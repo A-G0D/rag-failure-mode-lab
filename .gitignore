@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+# generated run traces (keep the directory, not the contents)
+logs/*.jsonl
+logs/*.html
