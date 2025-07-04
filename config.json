@@ -1,0 +1,10 @@
+{
+  "seed": 7919,
+  "retrieval": {
+    "k": 5,
+    "hybrid_alpha": 0.5,
+    "bm25_k1": 1.5,
+    "bm25_b": 0.75
+  },
+  "log_path": "logs/trace.jsonl"
+}
