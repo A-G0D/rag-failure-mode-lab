@@ -1,0 +1,30 @@
+{
+  "baseline_combo": "bm25+extractive",
+  "deltas": {
+    "answer_correctness_f1": {
+      "baseline": 0.5636,
+      "improved": 0.542864,
+      "improved_pct": -3.68,
+      "is_improvement": false
+    },
+    "context_precision_at_k": {
+      "baseline": 0.253333,
+      "improved": 0.253333,
+      "improved_pct": 0.0,
+      "is_improvement": false
+    },
+    "faithfulness": {
+      "baseline": 0.733333,
+      "improved": 0.7,
+      "improved_pct": -4.55,
+      "is_improvement": false
+    },
+    "hallucination_rate": {
+      "baseline": 0.266667,
+      "improved": 0.233333,
+      "improved_pct": 12.5,
+      "is_improvement": true
+    }
+  },
+  "improved_combo": "hybrid+template"
+}
