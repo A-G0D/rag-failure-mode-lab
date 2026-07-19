@@ -10,7 +10,7 @@ cd P2-rag
 $env:PYTHONPATH = "$PWD"          # bash: export PYTHONPATH="$PWD"
 ```
 
-## Regenerate the synthetic dataset (optional — already shipped)
+## Regenerate the synthetic dataset (optional, already shipped)
 
 ```powershell
 python scripts/build_dataset.py
@@ -24,7 +24,7 @@ python -m src.cli run "What triggers a backorder during allocation?" `
     --retriever hybrid --generator template
 ```
 
-`--retriever` ∈ {bm25, embedding, hybrid}; `--generator` ∈ {extractive, template}.
+`--retriever` ∈ {bm25, embedding, hybrid}. `--generator` ∈ {extractive, template}.
 
 ## Evaluate all combinations
 
@@ -40,10 +40,10 @@ python scripts/run_comparative_report.py   # standalone equivalent
 ```
 
 Outputs:
-- `eval/COMPARISON.md` — summary table, latency analysis, failure breakdown,
+- `eval/COMPARISON.md`: summary table, latency analysis, failure breakdown,
   baseline-vs-improved headline, recommendation.
-- `eval/stress_results.json` — full per-query + aggregate results for every combo.
-- `eval/comparison.json` — the baseline-vs-improved delta object.
+- `eval/stress_results.json`: full per-query + aggregate results for every combo.
+- `eval/comparison.json`: the baseline-vs-improved delta object.
 
 ## Tests
 

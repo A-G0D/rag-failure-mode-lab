@@ -78,7 +78,7 @@ def build_report(suite: dict[str, Any]) -> dict[str, Any]:
 def render_markdown(suite: dict[str, Any]) -> str:
     comparison = build_report(suite)
     lines: list[str] = [
-        "# RAG Comparative Report — Baseline vs Improved",
+        "# RAG Comparative Report: Baseline vs Improved",
         "",
         "_Deterministic run (seed-locked). All data synthetic "
         "(fictional Stillwater Industrial ERP corpus)._",
@@ -104,7 +104,7 @@ def render_markdown(suite: dict[str, Any]) -> str:
     ]
     for combo, bench in sorted(suite.items()):
         modes = bench["aggregate"]["failure_modes"]
-        lines.append(f"**{combo}** — " + ", ".join(f"{m}: {n}" for m, n in modes.items()))
+        lines.append(f"**{combo}**: " + ", ".join(f"{m}: {n}" for m, n in modes.items()))
     lines += ["", "## Baseline vs Improved (headline)", ""]
     for metric, d in comparison["deltas"].items():
         arrow = "improved" if d["is_improvement"] else "no improvement"

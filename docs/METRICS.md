@@ -31,7 +31,7 @@ context_precision@k = |relevant_docs in top-k| / k
 
 where the relevant set is the query's `expected_context_ids`.
 
-## Answer Correctness — token-overlap F1  (higher is better, range [0, 1])
+## Answer Correctness, token-overlap F1  (higher is better, range [0, 1])
 
 ```
 precision = |A ∩ G| / |A|        recall = |A ∩ G| / |G|
@@ -44,8 +44,8 @@ empty answer scores 0.0.
 ## Latency percentiles  (lower is better, milliseconds)
 
 `p50 / p95 / p99` of per-query wall-clock pipeline latency, via linear
-interpolation between order statistics. Reported for trade-off analysis;
-excluded from the determinism contract because wall-clock time is not
+interpolation between order statistics. Reported for trade-off analysis and
+excluded from the determinism contract, because wall-clock time is not
 reproducible.
 
 ## Failure taxonomy (counts per configuration)

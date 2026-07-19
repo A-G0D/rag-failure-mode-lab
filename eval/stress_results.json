@@ -12,9 +12,9 @@
       },
       "faithfulness": 0.733333,
       "hallucination_rate": 0.266667,
-      "latency_p50_ms": 0.2049,
-      "latency_p95_ms": 0.46476,
-      "latency_p99_ms": 0.485592,
+      "latency_p50_ms": 0.2045,
+      "latency_p95_ms": 0.28392,
+      "latency_p99_ms": 0.322784,
       "queries": 15
     },
     "by_stress_type": {
@@ -30,9 +30,9 @@
         },
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_p50_ms": 0.4536,
-        "latency_p95_ms": 0.48708,
-        "latency_p99_ms": 0.490056,
+        "latency_p50_ms": 0.2445,
+        "latency_p95_ms": 0.3237,
+        "latency_p99_ms": 0.33074,
         "queries": 3
       },
       "ambiguous": {
@@ -47,9 +47,9 @@
         },
         "faithfulness": 0.333333,
         "hallucination_rate": 0.666667,
-        "latency_p50_ms": 0.1648,
-        "latency_p95_ms": 0.18334,
-        "latency_p99_ms": 0.184988,
+        "latency_p50_ms": 0.1693,
+        "latency_p95_ms": 0.19288,
+        "latency_p99_ms": 0.194976,
         "queries": 3
       },
       "long_context_overload": {
@@ -64,9 +64,9 @@
         },
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_p50_ms": 0.2099,
-        "latency_p95_ms": 0.23699,
-        "latency_p99_ms": 0.239398,
+        "latency_p50_ms": 0.216,
+        "latency_p95_ms": 0.22149,
+        "latency_p99_ms": 0.221978,
         "queries": 3
       },
       "normal": {
@@ -81,9 +81,9 @@
         },
         "faithfulness": 0.666667,
         "hallucination_rate": 0.333333,
-        "latency_p50_ms": 0.2011,
-        "latency_p95_ms": 0.366975,
-        "latency_p99_ms": 0.395235,
+        "latency_p50_ms": 0.2038,
+        "latency_p95_ms": 0.251275,
+        "latency_p99_ms": 0.260735,
         "queries": 6
       }
     },
@@ -97,7 +97,7 @@
         "failure_mode": "partial_correctness",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.4908,
+        "latency_ms": 0.3325,
         "query_id": "Q_A_01",
         "retrieved_ids": [
           "DOC_O2C_02",
@@ -115,7 +115,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.4536,
+        "latency_ms": 0.2445,
         "query_id": "Q_A_02",
         "retrieved_ids": [
           "DOC_INV_06",
@@ -133,7 +133,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.2223,
+        "latency_ms": 0.2045,
         "query_id": "Q_A_03",
         "retrieved_ids": [
           "DOC_ARC_04",
@@ -151,7 +151,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.24,
+        "latency_ms": 0.216,
         "query_id": "Q_L_01",
         "retrieved_ids": [
           "DOC_O2C_04",
@@ -169,7 +169,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.2099,
+        "latency_ms": 0.2221,
         "query_id": "Q_L_02",
         "retrieved_ids": [
           "DOC_ARC_03",
@@ -187,7 +187,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.203,
+        "latency_ms": 0.2011,
         "query_id": "Q_L_03",
         "retrieved_ids": [
           "DOC_INV_04",
@@ -205,7 +205,7 @@
         "failure_mode": "partial_correctness",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.1854,
+        "latency_ms": 0.1955,
         "query_id": "Q_M_01",
         "retrieved_ids": [
           "DOC_INV_01",
@@ -223,7 +223,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 0.1648,
+        "latency_ms": 0.1693,
         "query_id": "Q_M_02",
         "retrieved_ids": [
           "DOC_ARC_03",
@@ -241,7 +241,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 0.156,
+        "latency_ms": 0.1609,
         "query_id": "Q_M_03",
         "retrieved_ids": [
           "DOC_INV_06",
@@ -259,7 +259,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.1812,
+        "latency_ms": 0.2631,
         "query_id": "Q_N_01",
         "retrieved_ids": [
           "DOC_O2C_01",
@@ -277,7 +277,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.1887,
+        "latency_ms": 0.1981,
         "query_id": "Q_N_02",
         "retrieved_ids": [
           "DOC_P2P_04",
@@ -295,7 +295,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.261,
+        "latency_ms": 0.174,
         "query_id": "Q_N_03",
         "retrieved_ids": [
           "DOC_O2C_03",
@@ -313,7 +313,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 0.4023,
+        "latency_ms": 0.2095,
         "query_id": "Q_N_04",
         "retrieved_ids": [
           "DOC_INV_03",
@@ -331,7 +331,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.2049,
+        "latency_ms": 0.1938,
         "query_id": "Q_N_05",
         "retrieved_ids": [
           "DOC_P2P_05",
@@ -349,7 +349,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 0.1973,
+        "latency_ms": 0.2158,
         "query_id": "Q_N_06",
         "retrieved_ids": [
           "DOC_O2C_05",
@@ -377,9 +377,9 @@
       },
       "faithfulness": 0.7,
       "hallucination_rate": 0.233333,
-      "latency_p50_ms": 0.2179,
-      "latency_p95_ms": 0.48881,
-      "latency_p99_ms": 0.749602,
+      "latency_p50_ms": 0.2157,
+      "latency_p95_ms": 0.68761,
+      "latency_p99_ms": 1.262002,
       "queries": 15
     },
     "by_stress_type": {
@@ -395,9 +395,9 @@
         },
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_p50_ms": 0.3307,
-        "latency_p95_ms": 0.76639,
-        "latency_p99_ms": 0.805118,
+        "latency_p50_ms": 0.2142,
+        "latency_p95_ms": 0.25308,
+        "latency_p99_ms": 0.256536,
         "queries": 3
       },
       "ambiguous": {
@@ -412,9 +412,9 @@
         },
         "faithfulness": 0.333333,
         "hallucination_rate": 0.333333,
-        "latency_p50_ms": 0.1748,
-        "latency_p95_ms": 0.20414,
-        "latency_p99_ms": 0.206748,
+        "latency_p50_ms": 0.3099,
+        "latency_p95_ms": 0.3729,
+        "latency_p99_ms": 0.3785,
         "queries": 3
       },
       "long_context_overload": {
@@ -429,9 +429,9 @@
         },
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_p50_ms": 0.2372,
-        "latency_p95_ms": 0.3137,
-        "latency_p99_ms": 0.3205,
+        "latency_p50_ms": 0.2157,
+        "latency_p95_ms": 0.2454,
+        "latency_p99_ms": 0.24804,
         "queries": 3
       },
       "normal": {
@@ -446,9 +446,9 @@
         },
         "faithfulness": 0.583333,
         "hallucination_rate": 0.416667,
-        "latency_p50_ms": 0.1958,
-        "latency_p95_ms": 0.32725,
-        "latency_p99_ms": 0.34473,
+        "latency_p50_ms": 0.21975,
+        "latency_p95_ms": 1.110525,
+        "latency_p99_ms": 1.346585,
         "queries": 6
       }
     },
@@ -462,7 +462,7 @@
         "failure_mode": "partial_correctness",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.2547,
+        "latency_ms": 0.2574,
         "query_id": "Q_A_01",
         "retrieved_ids": [
           "DOC_O2C_02",
@@ -480,7 +480,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.8148,
+        "latency_ms": 0.2039,
         "query_id": "Q_A_02",
         "retrieved_ids": [
           "DOC_INV_06",
@@ -498,7 +498,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.3307,
+        "latency_ms": 0.2142,
         "query_id": "Q_A_03",
         "retrieved_ids": [
           "DOC_ARC_04",
@@ -516,7 +516,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.2179,
+        "latency_ms": 0.2487,
         "query_id": "Q_L_01",
         "retrieved_ids": [
           "DOC_O2C_04",
@@ -534,7 +534,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.3222,
+        "latency_ms": 0.2157,
         "query_id": "Q_L_02",
         "retrieved_ids": [
           "DOC_ARC_03",
@@ -552,7 +552,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.2372,
+        "latency_ms": 0.1964,
         "query_id": "Q_L_03",
         "retrieved_ids": [
           "DOC_INV_04",
@@ -570,7 +570,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.5,
         "hallucination_rate": 0.5,
-        "latency_ms": 0.2074,
+        "latency_ms": 0.3099,
         "query_id": "Q_M_01",
         "retrieved_ids": [
           "DOC_INV_01",
@@ -588,7 +588,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.5,
         "hallucination_rate": 0.5,
-        "latency_ms": 0.1748,
+        "latency_ms": 0.3799,
         "query_id": "Q_M_02",
         "retrieved_ids": [
           "DOC_ARC_03",
@@ -606,7 +606,7 @@
         "failure_mode": "context_mismatch",
         "faithfulness": 0.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.1613,
+        "latency_ms": 0.2152,
         "query_id": "Q_M_03",
         "retrieved_ids": [
           "DOC_INV_06",
@@ -624,7 +624,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.1931,
+        "latency_ms": 0.2127,
         "query_id": "Q_N_01",
         "retrieved_ids": [
           "DOC_O2C_01",
@@ -642,7 +642,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.2617,
+        "latency_ms": 0.2249,
         "query_id": "Q_N_02",
         "retrieved_ids": [
           "DOC_P2P_04",
@@ -660,7 +660,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.5,
         "hallucination_rate": 0.5,
-        "latency_ms": 0.1889,
+        "latency_ms": 0.1837,
         "query_id": "Q_N_03",
         "retrieved_ids": [
           "DOC_O2C_03",
@@ -678,7 +678,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 0.1985,
+        "latency_ms": 1.4056,
         "query_id": "Q_N_04",
         "retrieved_ids": [
           "DOC_INV_03",
@@ -696,7 +696,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 0.1731,
+        "latency_ms": 0.2146,
         "query_id": "Q_N_05",
         "retrieved_ids": [
           "DOC_P2P_05",
@@ -714,7 +714,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 0.3491,
+        "latency_ms": 0.2253,
         "query_id": "Q_N_06",
         "retrieved_ids": [
           "DOC_O2C_05",
@@ -742,9 +742,9 @@
       },
       "faithfulness": 0.8,
       "hallucination_rate": 0.2,
-      "latency_p50_ms": 1.8147,
-      "latency_p95_ms": 3.76896,
-      "latency_p99_ms": 3.834032,
+      "latency_p50_ms": 2.0795,
+      "latency_p95_ms": 7.7495,
+      "latency_p99_ms": 10.67438,
       "queries": 15
     },
     "by_stress_type": {
@@ -760,9 +760,9 @@
         },
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_p50_ms": 1.5957,
-        "latency_p95_ms": 1.93554,
-        "latency_p99_ms": 1.965748,
+        "latency_p50_ms": 2.2862,
+        "latency_p95_ms": 2.34128,
+        "latency_p99_ms": 2.346176,
         "queries": 3
       },
       "ambiguous": {
@@ -777,9 +777,9 @@
         },
         "faithfulness": 0.666667,
         "hallucination_rate": 0.333333,
-        "latency_p50_ms": 3.655,
-        "latency_p95_ms": 3.83077,
-        "latency_p99_ms": 3.846394,
+        "latency_p50_ms": 1.7212,
+        "latency_p95_ms": 2.04367,
+        "latency_p99_ms": 2.072334,
         "queries": 3
       },
       "long_context_overload": {
@@ -794,9 +794,9 @@
         },
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_p50_ms": 1.8147,
-        "latency_p95_ms": 1.82406,
-        "latency_p99_ms": 1.824892,
+        "latency_p50_ms": 2.2659,
+        "latency_p95_ms": 2.29542,
+        "latency_p99_ms": 2.298044,
         "queries": 3
       },
       "normal": {
@@ -811,9 +811,9 @@
         },
         "faithfulness": 0.666667,
         "hallucination_rate": 0.333333,
-        "latency_p50_ms": 1.87495,
-        "latency_p95_ms": 3.317775,
-        "latency_p99_ms": 3.650835,
+        "latency_p50_ms": 3.17215,
+        "latency_p95_ms": 10.09985,
+        "latency_p99_ms": 11.14445,
         "queries": 6
       }
     },
@@ -827,7 +827,7 @@
         "failure_mode": "partial_correctness",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.5957,
+        "latency_ms": 2.3474,
         "query_id": "Q_A_01",
         "retrieved_ids": [
           "DOC_O2C_02",
@@ -845,7 +845,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.9733,
+        "latency_ms": 2.2862,
         "query_id": "Q_A_02",
         "retrieved_ids": [
           "DOC_INV_06",
@@ -863,7 +863,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.3883,
+        "latency_ms": 1.928,
         "query_id": "Q_A_03",
         "retrieved_ids": [
           "DOC_ARC_04",
@@ -881,7 +881,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.8251,
+        "latency_ms": 2.2659,
         "query_id": "Q_L_01",
         "retrieved_ids": [
           "DOC_O2C_04",
@@ -899,7 +899,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.8147,
+        "latency_ms": 1.8074,
         "query_id": "Q_L_02",
         "retrieved_ids": [
           "DOC_ARC_03",
@@ -917,7 +917,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.6018,
+        "latency_ms": 2.2987,
         "query_id": "Q_L_03",
         "retrieved_ids": [
           "DOC_INV_04",
@@ -935,7 +935,7 @@
         "failure_mode": "partial_correctness",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.7019,
+        "latency_ms": 2.0795,
         "query_id": "Q_M_01",
         "retrieved_ids": [
           "DOC_INV_01",
@@ -953,7 +953,7 @@
         "failure_mode": "partial_correctness",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 3.655,
+        "latency_ms": 1.5905,
         "query_id": "Q_M_02",
         "retrieved_ids": [
           "DOC_O2C_06",
@@ -971,7 +971,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 3.8503,
+        "latency_ms": 1.7212,
         "query_id": "Q_M_03",
         "retrieved_ids": [
           "DOC_INV_06",
@@ -989,7 +989,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 2.0688,
+        "latency_ms": 4.5284,
         "query_id": "Q_N_01",
         "retrieved_ids": [
           "DOC_O2C_01",
@@ -1007,7 +1007,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.7572,
+        "latency_ms": 6.1826,
         "query_id": "Q_N_02",
         "retrieved_ids": [
           "DOC_P2P_04",
@@ -1025,7 +1025,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.4368,
+        "latency_ms": 11.4056,
         "query_id": "Q_N_03",
         "retrieved_ids": [
           "DOC_O2C_03",
@@ -1043,7 +1043,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 1.4371,
+        "latency_ms": 1.8159,
         "query_id": "Q_N_04",
         "retrieved_ids": [
           "DOC_INV_03",
@@ -1061,7 +1061,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 3.7341,
+        "latency_ms": 1.4932,
         "query_id": "Q_N_05",
         "retrieved_ids": [
           "DOC_P2P_05",
@@ -1079,7 +1079,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 1.9927,
+        "latency_ms": 1.5136,
         "query_id": "Q_N_06",
         "retrieved_ids": [
           "DOC_O2C_05",
@@ -1107,9 +1107,9 @@
       },
       "faithfulness": 0.733333,
       "hallucination_rate": 0.2,
-      "latency_p50_ms": 2.047,
-      "latency_p95_ms": 4.37203,
-      "latency_p99_ms": 4.480726,
+      "latency_p50_ms": 1.5069,
+      "latency_p95_ms": 2.75656,
+      "latency_p99_ms": 3.771392,
       "queries": 15
     },
     "by_stress_type": {
@@ -1125,9 +1125,9 @@
         },
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_p50_ms": 1.8237,
-        "latency_p95_ms": 4.23948,
-        "latency_p99_ms": 4.454216,
+        "latency_p50_ms": 1.4477,
+        "latency_p95_ms": 1.55408,
+        "latency_p99_ms": 1.563536,
         "queries": 3
       },
       "ambiguous": {
@@ -1142,9 +1142,9 @@
         },
         "faithfulness": 0.5,
         "hallucination_rate": 0.166667,
-        "latency_p50_ms": 2.6014,
-        "latency_p95_ms": 4.14256,
-        "latency_p99_ms": 4.279552,
+        "latency_p50_ms": 1.5069,
+        "latency_p95_ms": 1.5996,
+        "latency_p99_ms": 1.60784,
         "queries": 3
       },
       "long_context_overload": {
@@ -1159,9 +1159,9 @@
         },
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_p50_ms": 1.8832,
-        "latency_p95_ms": 2.67862,
-        "latency_p99_ms": 2.749324,
+        "latency_p50_ms": 1.5539,
+        "latency_p95_ms": 2.06411,
+        "latency_p99_ms": 2.109462,
         "queries": 3
       },
       "normal": {
@@ -1176,9 +1176,9 @@
         },
         "faithfulness": 0.583333,
         "hallucination_rate": 0.416667,
-        "latency_p50_ms": 2.145,
-        "latency_p95_ms": 3.65565,
-        "latency_p99_ms": 3.92081,
+        "latency_p50_ms": 1.5559,
+        "latency_p95_ms": 3.57205,
+        "latency_p99_ms": 3.93449,
         "queries": 6
       }
     },
@@ -1192,7 +1192,7 @@
         "failure_mode": "partial_correctness",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.6604,
+        "latency_ms": 1.5659,
         "query_id": "Q_A_01",
         "retrieved_ids": [
           "DOC_O2C_02",
@@ -1210,7 +1210,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 4.5079,
+        "latency_ms": 1.4477,
         "query_id": "Q_A_02",
         "retrieved_ids": [
           "DOC_INV_06",
@@ -1228,7 +1228,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.8237,
+        "latency_ms": 1.3456,
         "query_id": "Q_A_03",
         "retrieved_ids": [
           "DOC_ARC_04",
@@ -1246,7 +1246,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.6048,
+        "latency_ms": 2.1208,
         "query_id": "Q_L_01",
         "retrieved_ids": [
           "DOC_O2C_04",
@@ -1264,7 +1264,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.8832,
+        "latency_ms": 1.5539,
         "query_id": "Q_L_02",
         "retrieved_ids": [
           "DOC_ARC_03",
@@ -1282,7 +1282,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 2.767,
+        "latency_ms": 1.3742,
         "query_id": "Q_L_03",
         "retrieved_ids": [
           "DOC_INV_04",
@@ -1300,7 +1300,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.5,
         "hallucination_rate": 0.5,
-        "latency_ms": 2.6014,
+        "latency_ms": 1.6099,
         "query_id": "Q_M_01",
         "retrieved_ids": [
           "DOC_INV_01",
@@ -1318,7 +1318,7 @@
         "failure_mode": "partial_correctness",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 4.3138,
+        "latency_ms": 1.5069,
         "query_id": "Q_M_02",
         "retrieved_ids": [
           "DOC_O2C_06",
@@ -1336,7 +1336,7 @@
         "failure_mode": "context_mismatch",
         "faithfulness": 0.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.8515,
+        "latency_ms": 1.3567,
         "query_id": "Q_M_03",
         "retrieved_ids": [
           "DOC_INV_06",
@@ -1354,7 +1354,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 3.9871,
+        "latency_ms": 1.3453,
         "query_id": "Q_N_01",
         "retrieved_ids": [
           "DOC_O2C_01",
@@ -1372,7 +1372,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 2.6613,
+        "latency_ms": 4.0251,
         "query_id": "Q_N_02",
         "retrieved_ids": [
           "DOC_P2P_04",
@@ -1390,7 +1390,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.5,
         "hallucination_rate": 0.5,
-        "latency_ms": 1.7575,
+        "latency_ms": 2.2129,
         "query_id": "Q_N_03",
         "retrieved_ids": [
           "DOC_O2C_03",
@@ -1408,7 +1408,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 2.047,
+        "latency_ms": 1.6696,
         "query_id": "Q_N_04",
         "retrieved_ids": [
           "DOC_INV_03",
@@ -1426,7 +1426,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.2356,
+        "latency_ms": 1.4422,
         "query_id": "Q_N_05",
         "retrieved_ids": [
           "DOC_P2P_05",
@@ -1444,7 +1444,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 2.243,
+        "latency_ms": 1.4151,
         "query_id": "Q_N_06",
         "retrieved_ids": [
           "DOC_O2C_05",
@@ -1472,9 +1472,9 @@
       },
       "faithfulness": 0.733333,
       "hallucination_rate": 0.266667,
-      "latency_p50_ms": 1.4695,
-      "latency_p95_ms": 2.21825,
-      "latency_p99_ms": 2.47893,
+      "latency_p50_ms": 1.9414,
+      "latency_p95_ms": 6.46554,
+      "latency_p99_ms": 6.919028,
       "queries": 15
     },
     "by_stress_type": {
@@ -1490,9 +1490,9 @@
         },
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_p50_ms": 1.6008,
-        "latency_p95_ms": 2.44977,
-        "latency_p99_ms": 2.525234,
+        "latency_p50_ms": 1.5961,
+        "latency_p95_ms": 1.8274,
+        "latency_p99_ms": 1.84796,
         "queries": 3
       },
       "ambiguous": {
@@ -1507,9 +1507,9 @@
         },
         "faithfulness": 0.333333,
         "hallucination_rate": 0.666667,
-        "latency_p50_ms": 1.369,
-        "latency_p95_ms": 1.80838,
-        "latency_p99_ms": 1.847436,
+        "latency_p50_ms": 2.0378,
+        "latency_p95_ms": 2.6939,
+        "latency_p99_ms": 2.75222,
         "queries": 3
       },
       "long_context_overload": {
@@ -1524,9 +1524,9 @@
         },
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_p50_ms": 1.2884,
-        "latency_p95_ms": 1.29074,
-        "latency_p99_ms": 1.290948,
+        "latency_p50_ms": 2.5389,
+        "latency_p95_ms": 6.58305,
+        "latency_p99_ms": 6.94253,
         "queries": 3
       },
       "normal": {
@@ -1541,9 +1541,9 @@
         },
         "faithfulness": 0.666667,
         "hallucination_rate": 0.333333,
-        "latency_p50_ms": 1.5108,
-        "latency_p95_ms": 1.9829,
-        "latency_p99_ms": 2.05946,
+        "latency_p50_ms": 1.9599,
+        "latency_p95_ms": 5.784675,
+        "latency_p99_ms": 6.135015,
         "queries": 6
       }
     },
@@ -1557,7 +1557,7 @@
         "failure_mode": "partial_correctness",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.4695,
+        "latency_ms": 1.5961,
         "query_id": "Q_A_01",
         "retrieved_ids": [
           "DOC_O2C_02",
@@ -1575,7 +1575,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 2.5441,
+        "latency_ms": 1.4261,
         "query_id": "Q_A_02",
         "retrieved_ids": [
           "DOC_INV_06",
@@ -1593,7 +1593,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.6008,
+        "latency_ms": 1.8531,
         "query_id": "Q_A_03",
         "retrieved_ids": [
           "DOC_ARC_04",
@@ -1611,7 +1611,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.2884,
+        "latency_ms": 1.769,
         "query_id": "Q_L_01",
         "retrieved_ids": [
           "DOC_O2C_04",
@@ -1629,7 +1629,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.291,
+        "latency_ms": 7.0324,
         "query_id": "Q_L_02",
         "retrieved_ids": [
           "DOC_ARC_03",
@@ -1647,7 +1647,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.2053,
+        "latency_ms": 2.5389,
         "query_id": "Q_L_03",
         "retrieved_ids": [
           "DOC_INV_04",
@@ -1665,7 +1665,7 @@
         "failure_mode": "partial_correctness",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.2153,
+        "latency_ms": 1.8068,
         "query_id": "Q_M_01",
         "retrieved_ids": [
           "DOC_INV_01",
@@ -1683,7 +1683,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 1.369,
+        "latency_ms": 2.7668,
         "query_id": "Q_M_02",
         "retrieved_ids": [
           "DOC_ARC_03",
@@ -1701,7 +1701,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 1.8572,
+        "latency_ms": 2.0378,
         "query_id": "Q_M_03",
         "retrieved_ids": [
           "DOC_INV_06",
@@ -1719,7 +1719,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.4495,
+        "latency_ms": 1.9414,
         "query_id": "Q_N_01",
         "retrieved_ids": [
           "DOC_O2C_01",
@@ -1737,7 +1737,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.4815,
+        "latency_ms": 4.4709,
         "query_id": "Q_N_02",
         "retrieved_ids": [
           "DOC_P2P_04",
@@ -1755,7 +1755,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.6958,
+        "latency_ms": 1.9784,
         "query_id": "Q_N_03",
         "retrieved_ids": [
           "DOC_O2C_03",
@@ -1773,7 +1773,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 2.0786,
+        "latency_ms": 1.797,
         "query_id": "Q_N_04",
         "retrieved_ids": [
           "DOC_INV_03",
@@ -1791,7 +1791,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.5401,
+        "latency_ms": 6.2226,
         "query_id": "Q_N_05",
         "retrieved_ids": [
           "DOC_P2P_05",
@@ -1809,7 +1809,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 1.1497,
+        "latency_ms": 1.5275,
         "query_id": "Q_N_06",
         "retrieved_ids": [
           "DOC_O2C_05",
@@ -1837,9 +1837,9 @@
       },
       "faithfulness": 0.7,
       "hallucination_rate": 0.233333,
-      "latency_p50_ms": 1.6894,
-      "latency_p95_ms": 2.60415,
-      "latency_p99_ms": 2.61787,
+      "latency_p50_ms": 1.5114,
+      "latency_p95_ms": 3.8946,
+      "latency_p99_ms": 5.42452,
       "queries": 15
     },
     "by_stress_type": {
@@ -1855,9 +1855,9 @@
         },
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_p50_ms": 1.6894,
-        "latency_p95_ms": 2.49661,
-        "latency_p99_ms": 2.568362,
+        "latency_p50_ms": 2.6309,
+        "latency_p95_ms": 5.48939,
+        "latency_p99_ms": 5.743478,
         "queries": 3
       },
       "ambiguous": {
@@ -1872,9 +1872,9 @@
         },
         "faithfulness": 0.333333,
         "hallucination_rate": 0.333333,
-        "latency_p50_ms": 1.6894,
-        "latency_p95_ms": 2.52811,
-        "latency_p99_ms": 2.602662,
+        "latency_p50_ms": 1.4798,
+        "latency_p95_ms": 1.50824,
+        "latency_p99_ms": 1.510768,
         "queries": 3
       },
       "long_context_overload": {
@@ -1889,9 +1889,9 @@
         },
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_p50_ms": 1.4548,
-        "latency_p95_ms": 1.77106,
-        "latency_p99_ms": 1.799172,
+        "latency_p50_ms": 1.5297,
+        "latency_p95_ms": 1.84263,
+        "latency_p99_ms": 1.870446,
         "queries": 3
       },
       "normal": {
@@ -1906,9 +1906,9 @@
         },
         "faithfulness": 0.583333,
         "hallucination_rate": 0.416667,
-        "latency_p50_ms": 1.8414,
-        "latency_p95_ms": 2.5835,
-        "latency_p99_ms": 2.59414,
+        "latency_p50_ms": 1.4149,
+        "latency_p95_ms": 2.70705,
+        "latency_p99_ms": 3.00141,
         "queries": 6
       }
     },
@@ -1922,7 +1922,7 @@
         "failure_mode": "partial_correctness",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 2.5863,
+        "latency_ms": 2.6309,
         "query_id": "Q_A_01",
         "retrieved_ids": [
           "DOC_O2C_02",
@@ -1940,7 +1940,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.6894,
+        "latency_ms": 1.6881,
         "query_id": "Q_A_02",
         "retrieved_ids": [
           "DOC_INV_06",
@@ -1958,7 +1958,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.3785,
+        "latency_ms": 5.807,
         "query_id": "Q_A_03",
         "retrieved_ids": [
           "DOC_ARC_04",
@@ -1976,7 +1976,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.8062,
+        "latency_ms": 1.8774,
         "query_id": "Q_L_01",
         "retrieved_ids": [
           "DOC_O2C_04",
@@ -1994,7 +1994,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.4427,
+        "latency_ms": 1.5297,
         "query_id": "Q_L_02",
         "retrieved_ids": [
           "DOC_ARC_03",
@@ -2012,7 +2012,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.4548,
+        "latency_ms": 1.4154,
         "query_id": "Q_L_03",
         "retrieved_ids": [
           "DOC_INV_04",
@@ -2030,7 +2030,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.5,
         "hallucination_rate": 0.5,
-        "latency_ms": 1.3437,
+        "latency_ms": 1.4798,
         "query_id": "Q_M_01",
         "retrieved_ids": [
           "DOC_INV_01",
@@ -2048,7 +2048,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.5,
         "hallucination_rate": 0.5,
-        "latency_ms": 2.6213,
+        "latency_ms": 1.4702,
         "query_id": "Q_M_02",
         "retrieved_ids": [
           "DOC_ARC_03",
@@ -2066,7 +2066,7 @@
         "failure_mode": "context_mismatch",
         "faithfulness": 0.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.6894,
+        "latency_ms": 1.5114,
         "query_id": "Q_M_03",
         "retrieved_ids": [
           "DOC_INV_06",
@@ -2084,7 +2084,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.6138,
+        "latency_ms": 1.3593,
         "query_id": "Q_N_01",
         "retrieved_ids": [
           "DOC_O2C_01",
@@ -2102,7 +2102,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 1.8943,
+        "latency_ms": 1.3936,
         "query_id": "Q_N_02",
         "retrieved_ids": [
           "DOC_P2P_04",
@@ -2120,7 +2120,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.5,
         "hallucination_rate": 0.5,
-        "latency_ms": 1.7885,
+        "latency_ms": 1.3414,
         "query_id": "Q_N_03",
         "retrieved_ids": [
           "DOC_O2C_03",
@@ -2138,7 +2138,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 2.5968,
+        "latency_ms": 1.4362,
         "query_id": "Q_N_04",
         "retrieved_ids": [
           "DOC_INV_03",
@@ -2156,7 +2156,7 @@
         "failure_mode": "correct",
         "faithfulness": 1.0,
         "hallucination_rate": 0.0,
-        "latency_ms": 2.5436,
+        "latency_ms": 3.075,
         "query_id": "Q_N_05",
         "retrieved_ids": [
           "DOC_P2P_05",
@@ -2174,7 +2174,7 @@
         "failure_mode": "hallucination",
         "faithfulness": 0.0,
         "hallucination_rate": 1.0,
-        "latency_ms": 1.5546,
+        "latency_ms": 1.6032,
         "query_id": "Q_N_06",
         "retrieved_ids": [
           "DOC_O2C_05",

@@ -1,4 +1,4 @@
-# RAG Comparative Report — Baseline vs Improved
+# RAG Comparative Report: Baseline vs Improved
 
 _Deterministic run (seed-locked). All data synthetic (fictional Stillwater Industrial ERP corpus)._
 
@@ -6,34 +6,34 @@ _Deterministic run (seed-locked). All data synthetic (fictional Stillwater Indus
 
 | combo | faithfulness | hallucination_rate | context_precision@k | answer_F1 | p50_ms |
 | --- | --- | --- | --- | --- | --- |
-| bm25+extractive | 0.733333 | 0.266667 | 0.253333 | 0.5636 | 0.2049 |
-| bm25+template | 0.7 | 0.233333 | 0.253333 | 0.542864 | 0.2179 |
-| embedding+extractive | 0.8 | 0.2 | 0.253333 | 0.571443 | 1.8147 |
-| embedding+template | 0.733333 | 0.2 | 0.253333 | 0.550007 | 2.047 |
-| hybrid+extractive | 0.733333 | 0.266667 | 0.253333 | 0.5636 | 1.4695 |
-| hybrid+template | 0.7 | 0.233333 | 0.253333 | 0.542864 | 1.6894 |
+| bm25+extractive | 0.733333 | 0.266667 | 0.253333 | 0.5636 | 0.2045 |
+| bm25+template | 0.7 | 0.233333 | 0.253333 | 0.542864 | 0.2157 |
+| embedding+extractive | 0.8 | 0.2 | 0.253333 | 0.571443 | 2.0795 |
+| embedding+template | 0.733333 | 0.2 | 0.253333 | 0.550007 | 1.5069 |
+| hybrid+extractive | 0.733333 | 0.266667 | 0.253333 | 0.5636 | 1.9414 |
+| hybrid+template | 0.7 | 0.233333 | 0.253333 | 0.542864 | 1.5114 |
 
 
 ## Latency analysis (ms)
 
 | combo | p50 | p95 | p99 |
 | --- | --- | --- | --- |
-| bm25+extractive | 0.2049 | 0.46476 | 0.485592 |
-| bm25+template | 0.2179 | 0.48881 | 0.749602 |
-| embedding+extractive | 1.8147 | 3.76896 | 3.834032 |
-| embedding+template | 2.047 | 4.37203 | 4.480726 |
-| hybrid+extractive | 1.4695 | 2.21825 | 2.47893 |
-| hybrid+template | 1.6894 | 2.60415 | 2.61787 |
+| bm25+extractive | 0.2045 | 0.28392 | 0.322784 |
+| bm25+template | 0.2157 | 0.68761 | 1.262002 |
+| embedding+extractive | 2.0795 | 7.7495 | 10.67438 |
+| embedding+template | 1.5069 | 2.75656 | 3.771392 |
+| hybrid+extractive | 1.9414 | 6.46554 | 6.919028 |
+| hybrid+template | 1.5114 | 3.8946 | 5.42452 |
 
 
 ## Failure-mode breakdown
 
-**bm25+extractive** — correct: 9, hallucination: 4, partial_correctness: 2, irrelevant_retrieval: 0, context_mismatch: 0
-**bm25+template** — correct: 8, hallucination: 5, partial_correctness: 1, irrelevant_retrieval: 0, context_mismatch: 1
-**embedding+extractive** — correct: 9, hallucination: 3, partial_correctness: 3, irrelevant_retrieval: 0, context_mismatch: 0
-**embedding+template** — correct: 8, hallucination: 4, partial_correctness: 2, irrelevant_retrieval: 0, context_mismatch: 1
-**hybrid+extractive** — correct: 9, hallucination: 4, partial_correctness: 2, irrelevant_retrieval: 0, context_mismatch: 0
-**hybrid+template** — correct: 8, hallucination: 5, partial_correctness: 1, irrelevant_retrieval: 0, context_mismatch: 1
+**bm25+extractive**: correct: 9, hallucination: 4, partial_correctness: 2, irrelevant_retrieval: 0, context_mismatch: 0
+**bm25+template**: correct: 8, hallucination: 5, partial_correctness: 1, irrelevant_retrieval: 0, context_mismatch: 1
+**embedding+extractive**: correct: 9, hallucination: 3, partial_correctness: 3, irrelevant_retrieval: 0, context_mismatch: 0
+**embedding+template**: correct: 8, hallucination: 4, partial_correctness: 2, irrelevant_retrieval: 0, context_mismatch: 1
+**hybrid+extractive**: correct: 9, hallucination: 4, partial_correctness: 2, irrelevant_retrieval: 0, context_mismatch: 0
+**hybrid+template**: correct: 8, hallucination: 5, partial_correctness: 1, irrelevant_retrieval: 0, context_mismatch: 1
 
 ## Baseline vs Improved (headline)
 
